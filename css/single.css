@@ -1,0 +1,132 @@
+/**************header开始****************/
+#header{
+	height: 200px;
+	background: url(../images/bg2.jpg) no-repeat 50% 0;
+}
+/**************header结束****************/
+/**************single开始****************/
+#single {
+	padding: 5em 0;
+}
+#single .container{
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#single .img-responsive{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#single p {
+	color: #555;
+	font-size: 18px;
+	line-height: 26.8px;
+	margin: 16px 0;
+}
+#single ul.comment-list {
+	border: 1px solid #E6E6E6;
+	padding: 32px;
+	list-style: none;
+	margin: 48px 0;
+	height: 150px;
+	background-color: #fff;
+}
+#single h5.post-author_head {
+	line-height: 19px;
+	font-size: 19px;
+	text-transform: none;
+	color: #999;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#single h5.post-author_head a ,.desc a{
+	color: #555;
+}
+#single ul.comment-list img {
+	float: left;
+	width: 107px;
+	margin-right: 20px;
+	display: block;
+	max-width: 100%;
+	height: 107px;
+}
+#single ul.comment-list .desc {
+	overflow: hidden;
+}
+#single .comments-area {
+	margin-top: 80px;
+}
+#single .comments-area h3 {
+	font-size: 32px;
+	color: #555;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+#single .comments-area p {
+	position: relative;
+	padding: 8px 0;
+	margin: 0;
+}
+.comments-area label {
+	display: block;
+	color: #999;
+	font-weight: 300;
+}
+.comments-area span {
+	color: #e4411b;
+	position: absolute;
+	left: 4px;
+	top: 40px;
+	font-size: 2em;
+}
+.comments-area input[type="text"] {
+	padding: 15px 20px;
+	width: 75%;
+	color: #999;
+	font-size: 13px;
+	border: none;
+	background: #fff;
+	outline: none;
+	display: block;
+
+}
+.comments-area textarea {
+	padding: 15px 30px;
+	width: 90%;
+	color: #999;
+	font-size: 13px;
+	outline: none;
+	height: 200px;
+	display: block;
+	border: none;
+	background: #fff;
+}
+.comments-area input[type="submit"] {
+	padding: 15px 20px;
+	color: #fff;
+	background: #02D7FD;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.comment{
+	background-color: #fff;
+	padding: 20px;
+	border: 2px solid #9cf;
+}
+.comment_cot{
+	border: 1px solid #9cf;
+	margin: 5px;
+	padding: 5px;
+	background-color: #cff;
+	width: auto;
+}
+.name,.data{
+	font-size: 15px;
+}
+/**************single结束****************/

@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	background: #f3f3f3;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border: 0;
+}
+/**********nav开始***********/
+#nav{
+	height: 192px;
+	float: left;
+}
+#nav .nav-icon{
+	width: 52px;
+	height: 52px;
+	background: url(../images/nav-icon.png) no-repeat;
+	position: absolute;
+	top: 64px;
+	right: 135px;
+	cursor: pointer;
+}
+#nav .nav-menu-box{
+	width: 100%;
+	height: 192px;
+	position: absolute;
+	left: 0;
+	top:-192px;
+	z-index: 10;
+}
+#nav .nav-menu-bg{
+	height: 100%;
+	background: rgb(82,87,89);
+	opacity: 0.39;
+	filter:alpha(opacity=39);
+}
+#nav .nav-menu{
+	height: 32px;
+	width: 694px;
+	position: absolute;
+	left: 50%;
+	margin-left: -347px;
+	top: 50%;
+	margin-top: -16px;
+
+}
+#nav .nav-menu li{
+	float: left;
+}
+#nav .nav-menu li a{
+	display: block;
+	margin: 8px 24px;
+	color: #fff;
+}
+#nav .nav-close-icon{
+	height: 35px;
+	width: 35px;
+	background: url(../images/close2.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 135px;
+	margin-top:-18px;
+	cursor: pointer;
+}
+#nav .nav-close-icon:hover{
+	background: url(../images/close2h.png) no-repeat;
+}
+
+
+/**********nav结束***********/
+
+/*********footer开始**********/
+#footer .footer-body {
+	border-top: 1px solid #DBDBDB;
+}
+.footer-left {
+	float: left;
+	padding: 25px 0;
+}
+.footer-left p {
+	color: #8e8e8e;
+	font-size: 1em;
+	margin: 0;
+}
+.footer-left p a {
+	color: #8e8e8e;
+	text-decoration: none;
+}
+.footer-left p a:hover{
+	color: blue;
+	text-decoration: none;
+}
+.footer-right{
+	float: right;
+	padding: 25px 0;
+}
+.footer-right ul li{
+	float: left;
+}
+.footer-right ul li a span {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background: url(../images/social-icons.png) no-repeat 0px 0px;
+}
+.footer-right ul li a span.face{
+	background-position: 5px 0px;
+}
+.footer-right ul li a span.twit{
+	background-position: -21px 0px;
+}
+.footer-right ul li a span.dri {
+	background-position: -50px 0px;
+}
+.footer-right ul li a span.tech {
+	background-position: -80px 0px;
+}
+.footer-right ul li a span.face:hover{
+	background-position: 5px -22px;
+}
+.footer-right ul li a span.twit:hover {
+	background-position: -21px -22px;
+}
+.footer-right ul li a span.dri:hover {
+	background-position: -50px -22px;
+}
+.footer-right ul li a span.tech:hover {
+	background-position: -80px -22px;
+}
+
+/*********footer结束**********/
+
+.clearfix{
+	*zoom:1;
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}

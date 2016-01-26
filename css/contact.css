@@ -1,0 +1,122 @@
+/**************header开始****************/
+#header{
+	height: 200px;
+	background: url(../images/bg2.jpg) no-repeat 50% 0;
+}
+/**************header结束****************/
+
+/**************contect开始****************/
+#contect{
+	height: auto;
+	padding: 80px 0;
+}
+#contect .contect-body {
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+.contect-left,.contect-right{
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#contect .contect-top{
+	height: 479px;
+}
+#contect .contect-left{
+	width: 60%;
+	float: left;
+}
+#contect .contect-right{
+	width: 30%;
+	float: left;
+}
+#contect .contect-map{
+	margin-top: 64px;
+}
+.contect-left p.comment-form-author{
+	margin-bottom: 2em;
+}
+.contect-left p {
+	color: #555;
+	font-size: 14.4px;
+	line-height: 28px;
+	margin: 16px 0;
+}
+.contect-left label {
+	display: block;
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.contect-left input[type="text"] {
+	padding: 10px;
+	width: 95%;
+	color: #9198A3;
+	background: #fff;
+	outline: none;
+	display: block;
+	border: 1px solid #eee;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+.contect-left textarea {
+	padding: 10px;
+	display: block;
+	width: 95%;
+	background: #fff;
+	border: 1px solid #eee;
+	outline: none;
+	color: #9198A3;
+	resize: none;
+	height: 150px;
+}
+.contect-left input[type="submit"] {
+	display: inline-block;
+	padding: 13px 25px;
+	background: #02D7FD;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+}
+#contect-right h3{
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	font-size: 24px;
+	margin-top: 20px;
+}
+.address {
+	margin-bottom: 24px;
+}
+.address i{
+	font-style: italic;
+}
+.contact_address,.contact_email{
+	overflow: hidden;
+	color: #999;
+	line-height: 24px;
+}
+.contact_email a {
+	color: #1B242F;
+}
+.aboutme-box{
+	width: 1100px;
+	margin: 0 auto;
+}
+.contect-map iframe {
+	width: 100%;
+	min-height: 300px;
+	border: none;
+}
+/**************contect结束****************/
